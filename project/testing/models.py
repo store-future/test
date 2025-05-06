@@ -7,3 +7,9 @@ class TestModel(models.Model):
 
     def __str__(self):
         return self.name
+    
+class Frontend(models.Model):
+    name = models.CharField(max_length = 100)
+
+    def __str__(self):
+        return self.name
