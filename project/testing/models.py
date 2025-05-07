@@ -13,3 +13,17 @@ class Frontend(models.Model):
 
     def __str__(self):
         return self.name
+
+
+class backend(models.Model):
+    name = models.CharField(max_length = 100)
+
+    def __str__(self):
+        return self.name
+    
+
+class backend2(models.Model):
+    name = models.CharField(max_length = 100)
+
+    def __str__(self):
+        return self.name
